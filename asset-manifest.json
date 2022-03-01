@@ -4,7 +4,7 @@
     "static/js/0.079d97f6.chunk.js.map": "/hedge-your-pool/static/js/0.079d97f6.chunk.js.map",
     "static/js/1.a2ecae29.chunk.js": "/hedge-your-pool/static/js/1.a2ecae29.chunk.js",
     "static/js/1.a2ecae29.chunk.js.map": "/hedge-your-pool/static/js/1.a2ecae29.chunk.js.map",
-    "main.css": "/hedge-your-pool/static/css/main.3e8d09db.chunk.css",
+    "main.css": "/hedge-your-pool/static/css/main.d4e717c7.chunk.css",
     "main.js": "/hedge-your-pool/static/js/main.c1386d3d.chunk.js",
     "main.js.map": "/hedge-your-pool/static/js/main.c1386d3d.chunk.js.map",
     "runtime-main.js": "/hedge-your-pool/static/js/runtime-main.21a6dc30.js",
@@ -26,7 +26,7 @@
     "service-worker.js": "/hedge-your-pool/service-worker.js",
     "service-worker.js.map": "/hedge-your-pool/service-worker.js.map",
     "static/css/4.01aa71eb.chunk.css.map": "/hedge-your-pool/static/css/4.01aa71eb.chunk.css.map",
-    "static/css/main.3e8d09db.chunk.css.map": "/hedge-your-pool/static/css/main.3e8d09db.chunk.css.map",
+    "static/css/main.d4e717c7.chunk.css.map": "/hedge-your-pool/static/css/main.d4e717c7.chunk.css.map",
     "static/js/0.079d97f6.chunk.js.LICENSE.txt": "/hedge-your-pool/static/js/0.079d97f6.chunk.js.LICENSE.txt",
     "static/js/4.05574f75.chunk.js.LICENSE.txt": "/hedge-your-pool/static/js/4.05574f75.chunk.js.LICENSE.txt",
     "static/js/5.2f51d356.chunk.js.LICENSE.txt": "/hedge-your-pool/static/js/5.2f51d356.chunk.js.LICENSE.txt",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.21a6dc30.js",
     "static/css/4.01aa71eb.chunk.css",
     "static/js/4.05574f75.chunk.js",
-    "static/css/main.3e8d09db.chunk.css",
+    "static/css/main.d4e717c7.chunk.css",
     "static/js/main.c1386d3d.chunk.js"
   ]
 }
