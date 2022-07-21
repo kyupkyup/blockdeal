@@ -29,7 +29,7 @@ Starting with just six members enables the committee to efficiently fund project
 
 **We suggest the grants program is administered by a single lead. Here we propose Kenneth Ng, a co-author of this post**. Ken has helped grow the Ethereum Foundation Grants Program over the last two years in establishing high level priorities and adapting for the ecosystems needs.
 
-**The other 5 committee members should be thought of as “reviewers” — UNI community members who will keep the grants program functional by ensuring Ken is leading effectively and, of course, not absconding with funds.** Part of the reviewers job is to hold the program accountable for success (defined below) and/or return any excess funds to the UNI treasury. Reviewers are not compensated as part of this proposal as we expect their time commitment to be minimal. Compensation for the lead role is discussed below, as we expect this to be a labor intensive role.
+**The other 5 committee members should be thought of as “reviewers” — BDEX community members who will keep the grants program functional by ensuring Ken is leading effectively and, of course, not absconding with funds.** Part of the reviewers job is to hold the program accountable for success (defined below) and/or return any excess funds to the UNI treasury. Reviewers are not compensated as part of this proposal as we expect their time commitment to be minimal. Compensation for the lead role is discussed below, as we expect this to be a labor intensive role.
 
 **Program Lead:** [Ken Ng](https://twitter.com/nkennethk?lang=en) (HL Creative Corp)
 *Ecosystem Support Program at the Ethereum Foundation*
