@@ -24,21 +24,21 @@ import DarkModeQueryParamReader from '../theme/DarkModeQueryParamReader'
 import TestPage from './TestPage'
 import { RedirectPathToTestOnly } from './TestPage/redirects'
 
-const BackgroundWrapper = styled.div`
+const BackgroundWrapper = styled.div<{ screenMobile: boolean }>`
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/main.webp);
-  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/main.webp);
+  ${({ screenMobile }) => (screenMobile ? 'min-height: 100vh;' : 'height: 100%')};
 `
 
-const BodyWrapper = styled.div`
-  max-width: 350px;
+const BodyWrapper = styled.div<{ screenMobile: boolean }>`
+  ${({ screenMobile }) => (screenMobile ? 'max-width:640px' : 'max-width: 350px')};
+  ${({ screenMobile }) => (screenMobile ? 'width:100%' : '')};
   border: 0 none;
   background-color: #212429 !important;
   padding: 15px;
@@ -98,10 +98,13 @@ export default function App() {
       <Route component={DarkModeQueryParamReader} />
       <Route component={ApeModeQueryParamReader} />
       <Web3ReactManager>
-        <BackgroundWrapper>
+        <BackgroundWrapper screenMobile={screenMobile}>
           <Section title={null}>
             <Logo width={`${!screenMobile ? '300px' : '200px'}`} height="76px" title="logo" />
-            <div className={`uk-flex ${!screenMobile ? 'uk-flex-row uk-flex-middle' : 'uk-flex-column'}`}>
+            <div
+              className={`uk-flex ${!screenMobile ? 'uk-flex-row uk-flex-start' : 'uk-flex-column'}`}
+              style={{ marginTop: `${screenMobile ? '10px' : '30px'}` }}
+            >
               {!screenMobile ? (
                 <div className="uk-width-3-5@m uk-padding-small">{textWrapper}</div>
               ) : (
@@ -110,7 +113,7 @@ export default function App() {
                 </div>
               )}
               <div className="uk-flex uk-flex-column uk-flex-middle uk-flex-center uk-width-2-5@m uk-width-1-1">
-                <BodyWrapper>
+                <BodyWrapper screenMobile={screenMobile}>
                   <Header />
                   {/* <Popups /> */}
                   <Polling />
@@ -130,6 +133,7 @@ export default function App() {
           <BlockDEXStats />
           <AuditBy />
           <Footer />
+
           <Toaster position="bottom-left" />
         </BackgroundWrapper>
       </Web3ReactManager>
