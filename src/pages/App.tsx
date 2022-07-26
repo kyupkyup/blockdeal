@@ -2,7 +2,7 @@ import 'styles/global.scss'
 
 import Footer from 'BlockDEX/components/Footer'
 import Section from 'BlockDEX/components/Section'
-import { Benefits, BlockDEXStats, Introduction } from 'BlockDEX/containers/Introduction'
+import { AuditBy, Benefits, BlockDEXStats, Introduction } from 'BlockDEX/containers/Introduction'
 import Loader from 'components/Loader'
 import ApeModeQueryParamReader from 'hooks/useApeModeQueryParamReader'
 import { Suspense, useEffect, useState } from 'react'
@@ -69,18 +69,11 @@ export default function App() {
 
   const textWrapper = (
     <div className="uk-flex uk-flex-column">
-      <div className="uk-h3 uk-margin-remove-bottom">Your access to crypto block </div>
-      <div className="uk-p uk-margin-remove">TRADE on the leading decentralized block trading protocol.</div>
-      <div className="uk-p uk-margin-remove">OWN the leading decentralized block trading protocol.</div>
-      <div className="uk-p uk-margin-remove">
-        Block DEX Protocol is a public good owned and governed by BDEX token holders.
-      </div>
-      <div className="uk-p uk-margin-remove">One-stop-shop decentralized block, large scale trading platform</div>
-      <div className="uk-divider-small" />
+      <div className="uk-h1 uk-text-white uk-margin-remove-bottom">One-stop access</div>
+      <div className="uk-h2 uk-text-white">to decentralized block trading</div>
       <div className="uk-p uk-margin-remove">Zero price impact to block order makers.</div>
       <div className="uk-p uk-margin-remove">Zero commission to block order takers.</div>
       <div className="uk-p uk-margin-remove">Most transparent price.</div>
-      <div className="uk-p uk-margin-remove">Tokens as ownership of the protocol.</div>
       <div className="uk-flex uk-flex-row uk-margin-large-top">
         <div
           style={{
@@ -135,14 +128,11 @@ export default function App() {
               </div>
             </div>
           </Section>
-          {screenMobile || (
-            <>
-              <Introduction />
-              <Benefits />
-              <BlockDEXStats />
-              <Footer />
-            </>
-          )}
+          <Introduction />
+          <Benefits />
+          <BlockDEXStats />
+          <AuditBy />
+          <Footer />
 
           <Toaster position="bottom-left" />
         </BackgroundWrapper>
