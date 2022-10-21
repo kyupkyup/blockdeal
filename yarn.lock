@@ -4299,9 +4299,10 @@
   version "2.2.0"
   resolved "https://registry.npmjs.org/@uniswap/default-token-list/-/default-token-list-2.2.0.tgz"
 
-"@uniswap/default-token-list@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/@uniswap/default-token-list/-/default-token-list-3.2.0.tgz"
+"@uniswap/default-token-list@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@uniswap/default-token-list/-/default-token-list-5.2.0.tgz#68bed7fa8d9c31e93431cdb50c45f2984f5859ff"
+  integrity sha512-ipIuYdW/56xwNxR2Z0xB+kfWKraar9nYHS/Y0QOOQ0rpMM6fZ9ro8KKxsOOQF9irVpf20Fgusk2jLcL2TdPqAg==
 
 "@uniswap/governance@^1.0.2":
   version "1.0.2"
